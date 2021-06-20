@@ -1,0 +1,25 @@
+<title>File Upload</title>
+<body>
+	<div class='container'>
+		<h1>File Upload</h1>
+		<form method='POST' action='/upload' enctype='multipart/form-data'>
+		<div class='form-group'>
+			<label for 'inputFile'>File input</label>
+			<input type='file' name='inputFile' accept='.txt,.doc,.docx'>
+		</div>
+		<button type='submit'>Submit</button>
+		</form>
+	</div>
+</body>
+<h2>Search Query<h2>
+<form method="POST" action="/retrieve">
+	<table>
+		<tr>
+			<td>Query: </td>
+			<td><input type="text" name="userquery"/></td>
+		</tr>
+		<tr>
+			<td><input type="Submit"></td>
+		</tr>
+	</table>
+</form>
