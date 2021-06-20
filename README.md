@@ -8,3 +8,4 @@ A search engine that returns the documents relevant to the search query given by
 3. The homepage has options to upload a text document and to enter a search query and get the relevant output documents suggested.
 4. Once you select a file to upload (one dummy file included in dummy_text_document_to_upload folder for testing) and click on upload, the file should be visible in uploaded_files folder. It can also be verified by checking the files_database.db database (included).
 5. You can again search required text by entering query in the search bar.
+6. unit_test_cases.py contains unit testcases for unit testing. The can be executed using pytest in terminal.
